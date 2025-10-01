@@ -23,7 +23,7 @@ body{
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    left: 3px;
+    left: 4px;
     top: 5px;
     animation: toggleOff 0.4s linear forwards;
 }
@@ -42,14 +42,14 @@ body{
         transform: translateX(0);
     }
     100% {
-        transform: translateX(40px);
+        transform: translateX(52px);
     }
     
 
 }
 @keyframes toggleOff {
     0%{
-        transform: translate(40px);
+        transform: translate(52px);
     }
     100%{
         transform: translateX(0);
